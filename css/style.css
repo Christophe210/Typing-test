@@ -1,0 +1,39 @@
+#box {
+  border: dashed 10px blue;
+}
+
+.logo img {
+  width: 150px;
+  height: 150px;
+}
+
+.heart,
+.fa-github {
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width : 600px) {
+  .mobile {
+    font-size: 3rem;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+
+  .logo img {
+    width: 100px;
+    height: 100px;
+  }
+
+  #box {
+
+    margin: 0 5px;
+    border: dashed 7px blue;
+  }
+}

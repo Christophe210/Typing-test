@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="google-site-verification" content="MNzal0eBD7OcBcZi6xQjLhd3LjcyEUDJc-i5DmOj5JA" />
+  <meta name="description" content="TypeBeater is a simple speed typing Game, Type words and Have fun.">
+  <meta name="keywords" content="TypeBeater, Wordbeater,vishal ibitwar,vishalibitwar,typing game">
+  <title>Typing Test</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Wallpoet&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link rel="icon" href="img/images.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-light text-dark">
+  <header class=" text-center text-light p-1 mb-md-5 mb-2">
+    <div class="logo d-flex m-1 flex-row justify-content-center align-items-center">
+      <h1 class="display-2 heading font-weight-bold animated jello slow" style="font-family: 'Wallpoet', cursive; color: black;">
+        Typing Test</h1>
+    </div>
+  </header>
+
+  <div class="container animated flipInX mt-5 text-center">
+    <!-- Word & Input -->
+    <div class="row justify-content-center align-items-center">
+      <div id="box" class="col-md-8 mx-auto p-5 rounded">
+        <h1 class="d-inline-block"><span id="levelmessage" class="badge badge-success"></span></h1>
+        <h2 class="display-2 mobile font-weight-bold mb-5 mt-3 " id="current-word">New Game!!</h2>
+        <input type="text" class="form-control form-control-lg" placeholder="Type above text..." id="word-input"
+          autofocus>
+        <!-- <h4 class="mt-3" id="message"></h4> -->
+
+        <!-- Time & Score Columns -->
+        <div class="row mt-4 text-dark">
+          <div class="col-md-4 ">
+            <h3 id="animateTimer" class="bg-warning rounded p-2"><i class="fa fa-clock-o "></i> Timer :
+              <span id="time">0</span>
+            </h3>
+          </div>
+          <div class="col-md-4">
+            <h3 id="animateScore" class=" bg-info rounded p-2">Score:
+              <span id="score">0</span>
+            </h3>
+          </div>
+          <div class="col-md-4">
+            <h3 id="animateHighScore" class=" bg-success rounded p-2"><i class="fa fa-trophy"></i> Top :
+              <span id="highscore">0</span>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-center p-3 text-light mt-5" style="background-color: black;">
+
+    <li class="link"><a href="https://christophe210.github.io/Tsinda-Media_App/" class="nav__btn"> developed  by Tsinda Media Ltd</a></li>
+    <p style="color: blue;">&copy; 2024</p>
+
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
